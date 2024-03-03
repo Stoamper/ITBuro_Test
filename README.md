@@ -3,7 +3,6 @@
 
 ![Banner](https://www.wellesleyfreelibrary.org/wp-content/uploads/2015/08/computeruse.jpg)
 
-![badge](https://img.shields.io/badge/WEB%20development-0052FF?style=flat-square&Color=white)
 ![badge](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue)
 ![badge](https://img.shields.io/badge/MySQL-316192?style=flat-square&logo=mysql&logoColor=white)
 
