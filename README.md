@@ -151,7 +151,7 @@
  
 ## <a name="code_desc"></a> Описание кода
 
-Как было сказано [выше](#app_components) приложение состоит из SQL-скриптов Create DB library, Data for DB, Selection_scripts.sql и Python-файла Library_console
+Как было сказано [выше](#app_components) приложение состоит из SQL-скриптов Create_DB_library, Data_for_DB, Selection_scripts.sql и Python-файла Library_console
 
 Рассмотрим более подробно каждый из них.
 
