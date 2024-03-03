@@ -197,7 +197,7 @@
 | ------- | ------- | ------- | ------- | 
 | id | serial | id книги | Является первичным ключом  |
 | title | VARCHAR(100) | Название книги |  |
-| author_id | BIGINT unsigned NOT NULL | id автора | Является внешним ключем для таблицы authors(id), ON UPDATE CASCADE ON DELETE CASCADE |
+| author_id | BIGINT unsigned NOT NULL | id автора | Является внешним ключом для таблицы authors(id), ON UPDATE CASCADE ON DELETE CASCADE |
 | genre | ENUM | Жанр книги | Выбирается из списка значений |
 | isbn | VARCHAR(100) | ISBN книги |  |
 | publishing_year | VARCHAR(100) | Год публикации |  |
@@ -209,12 +209,12 @@
 | Атрибут | Тип | Описание | Особенности |
 | ------- | ------- | ------- | ------- | 
 | id | serial | id выдачи | Является первичным ключом  |
-| book_id | BIGINT unsigned NOT NULL | id книги | Является внешним ключем для таблицы books(id), ON UPDATE CASCADE ON DELETE CASCADE |
+| book_id | BIGINT unsigned NOT NULL | id книги | Является внешним ключом для таблицы books(id), ON UPDATE CASCADE ON DELETE CASCADE |
 | issuance_status | ENUM | Статус выдачи (в библиотеке, выдана) | Выбирается из списка значений |
-| reader_id | BIGINT unsigned NOT NULL | id читателя | Является внешним ключем для таблицы readers(id), ON UPDATE CASCADE ON DELETE CASCADE |
+| reader_id | BIGINT unsigned NOT NULL | id читателя | Является внешним ключом для таблицы readers(id), ON UPDATE CASCADE ON DELETE CASCADE |
 | date_of_issue | DATE | Дата выдачи на руки |  |
 | date_of_return | DATE | Дата возврата |  |
-| librarian_id | BIGINT unsigned NOT NULL | id библиотекаря | Является внешним ключем для таблицы librarians(id), ON UPDATE CASCADE ON DELETE CASCADE |
+| librarian_id | BIGINT unsigned NOT NULL | id библиотекаря | Является внешним ключом для таблицы librarians(id), ON UPDATE CASCADE ON DELETE CASCADE |
 
 
 Диаграмма базы данных и связи между сущностями представлены на рисунке ниже.
